@@ -1,4 +1,4 @@
-{-# OPTIONS --without-K --rewriting --guardedness --allow-unsolved-meta --type-in-type #-}
+{-# OPTIONS --without-K --rewriting --guardedness #-}
 
 module All where
 
