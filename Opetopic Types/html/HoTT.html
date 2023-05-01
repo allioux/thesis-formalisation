@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html><head><meta charset="utf-8"><title>HoTT</title><link rel="stylesheet" href="Agda.css"></head><body><pre class="Agda"><a id="1" class="Symbol">{-#</a> <a id="5" class="Keyword">OPTIONS</a> <a id="13" class="Pragma">--without-K</a> <a id="25" class="Pragma">--rewriting</a> <a id="37" class="Symbol">#-}</a>
+
+<a id="42" class="Keyword">module</a> <a id="49" href="HoTT.html" class="Module">HoTT</a> <a id="54" class="Keyword">where</a>
+
+<a id="61" class="Keyword">open</a> <a id="66" class="Keyword">import</a> <a id="73" href="lib.Basics.html" class="Module">lib.Basics</a> <a id="84" class="Keyword">public</a>
+
+<a id="92" class="Keyword">open</a> <a id="97" class="Keyword">import</a> <a id="104" href="lib.Equivalence2.html" class="Module">lib.Equivalence2</a> <a id="121" class="Keyword">public</a>
+<a id="128" class="Keyword">open</a> <a id="133" class="Keyword">import</a> <a id="140" href="lib.NConnected.html" class="Module">lib.NConnected</a> <a id="155" class="Keyword">public</a>
+<a id="162" class="Keyword">open</a> <a id="167" class="Keyword">import</a> <a id="174" href="lib.NType2.html" class="Module">lib.NType2</a> <a id="185" class="Keyword">public</a>
+<a id="192" class="Keyword">open</a> <a id="197" class="Keyword">import</a> <a id="204" href="lib.Relation2.html" class="Module">lib.Relation2</a> <a id="218" class="Keyword">public</a>
+<a id="225" class="Keyword">open</a> <a id="230" class="Keyword">import</a> <a id="237" href="lib.types.Types.html" class="Module">lib.types.Types</a> <a id="253" class="Keyword">public</a>
+<a id="260" class="Keyword">open</a> <a id="265" class="Keyword">import</a> <a id="272" href="lib.Function2.html" class="Module">lib.Function2</a> <a id="286" class="Keyword">public</a>
+
+<a id="294" class="Keyword">open</a> <a id="299" class="Keyword">import</a> <a id="306" href="lib.types.Types.html" class="Module">lib.types.Types</a> <a id="322" class="Keyword">public</a>
+
+<a id="330" class="Comment">{-
+open import lib.cubical.Cubical public
+open import lib.groups.Groups public
+open import lib.groupoids.Groupoids public
+open import lib.modalities.Modalities public
+open import lib.two-semi-categories.TwoSemiCategories public
+-}</a>
+<a id="561" class="Comment">{-
+To use coinduction in the form of [∞], [♭] and [♯] you can do:
+
+open import HoTT
+open Coinduction
+
+You can also use coinductive records and copatterns instead, that’s prettier
+(see experimental/GlobularTypes.agda for an example)
+  -}</a>
+<a id="798" class="Keyword">module</a> <a id="Coinduction"></a><a id="805" href="HoTT.html#805" class="Module">Coinduction</a> <a id="817" class="Keyword">where</a>
+  <a id="825" class="Keyword">open</a> <a id="830" class="Keyword">import</a> <a id="837" href="lib.Coinduction.html" class="Module">lib.Coinduction</a> <a id="853" class="Keyword">public</a>
+
+</pre></body></html>
