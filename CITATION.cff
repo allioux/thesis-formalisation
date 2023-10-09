@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Higher Algebra in Homotopy Type Theory
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Antoine
+    family-names: Allioux
+    email: antoine.allioux@irif.fr
+    affiliation: Institut de Recherche en Informatique Fondamentale
+  - given-names: Eric
+    family-names: Finster
+    email: ericfinster@gmail.com
+    affiliation: University of Birmingham
+abstract: >-
+  This repository contains the formalisation of most of
+  the results presented in Antoine Allioux's PhD thesis. There are
+  two developments: the first one concerns the type-theoretical
+  definition of opetopes (Chapter 1), while the second one
+  concerns opetopic types and their applications (Chapters 2
+  and 3). Each project comes with the agda source code and a
+  html version thereof. They depend on the agda HoTT
+  library. These two projects are based on Eric Finster's works
+  https://github.com/ericfinster/opetopictt and
+  https://github.com/ericfinster/opetopic-types.
+
