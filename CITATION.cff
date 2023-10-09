@@ -27,4 +27,6 @@ abstract: >-
   library. These two projects are based on Eric Finster's works
   https://github.com/ericfinster/opetopictt and
   https://github.com/ericfinster/opetopic-types.
+year: 2023
+url: "https://github.com/allioux/thesis-formalisation"
 
